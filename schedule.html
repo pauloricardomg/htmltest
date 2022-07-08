@@ -59,7 +59,7 @@
 						<header class="major">
 							<h2>ApacheCon 2022 Schedule</h2>
 						</header>
-<h2>Big Data</h2>
+<h2 id="bigdata">Big Data</h2>
 <p>October 3-4, Rhythms I</p>
 <table style="width=100%; border:black; border-width:1px;">
 <tr><th style="width=20%">Session Title</th><th style="width=60%">Session Description</th><th style="width=20%">Presenter(s)</th></tr>
@@ -88,7 +88,7 @@
 
 <tr><td>Data Governance with Apache Atlas - An alternative User Interface</td><td>Apache Atlas provides data governance functionality and is part of the Hadoop eco-system, however, it is not limited to it. The underlying data model is very generic and can be extended. This makes Apache Atlas very flexible, however, has consequences for the usability of the user interface.<br>In this talk, I present an extension of the data model and present an alternative open source user interface, which can be used more intuitively by non-technical users, especially business users.<br>In more detail, in this presentation the underlying extension of the data model is motivated and explained. Further, it is motivated which derived information is required by the business user to increase the usability. Next the open source backend functionality is explained and the underlying technologies are motivated. Finally, a short tutorial is provided on how to setup your own system with a related open source helm chart and explains how to get started.<br>The motivation for this talk is to promote this open source project and find support and interest in the community.  <br>Some related numbers:<br>- we are adding 6 additional base types<br>- we have a further extension of these 6 types for elastic, kafka and kubernetes<br>- the frontend is in Angular<br>- the backend uses Apache Atlas, HBase, Apache Kafka, Apache Flink, Keycloak, Apache Httpd, elasticsearch and elastic enterprise search</td><td>Andreas Wombacher</td></tr></table>
 
-<h2>Cassandra</h2>
+<h2 id="cassandra">Cassandra</h2>
 <p>October 5-6, Rhythms I</p>
 <table style="width=100%; border:black; border-width:1px;">
 <tr><th style="width=20%">Session Title</th><th style="width=60%">Session Description</th><th style="width=20%">Presenter(s)</th></tr>
@@ -116,7 +116,7 @@
 
 <tr><td>Building APIs on Cassandra</td><td>Have you ever created an abstraction layer over Cassandra or another database? In my time as a Cassandra advocate, I observed many of these layers and the need for a common solution that could help save teams the effort of building and maintaining their own abstractions. This search led me to the Stargate project, an open source data gateway for building developer friendly APIs on top of Cassandra.<br><br>In this talk, we’ll look at the reasons why teams create API abstractions and several common patterns and pitfalls. We’ll look at how Stargate supports a pluggable architecture for supporting multiple versions of Cassandra and different authentication APIs, and how the Stargate v2 architecture enables you to extend Cassandra with your own APIs.</td><td>Jeff Carpenter</td></tr></table>
 
-<h2>Community</h2>
+<h2 id="community">Community</h2>
 <p>October 3-5, Rex</p>
 <table style="width=100%; border:black; border-width:1px;">
 <tr><th style="width=20%">Session Title</th><th style="width=60%">Session Description</th><th style="width=20%">Presenter(s)</th></tr>
@@ -152,7 +152,7 @@
 
 <tr><td>Distributed events and how to make one</td><td>During the pandemics. we've been experiencing the period of not being able to travel and see and meet other people. Those were pretty sad times - we all want to forget about this quickly. Getting back to in-person events like ApacheCon in New Orleans is something we've all been eager to do and it's super cool we can do the physical event again.<br><br>But should we really forget about those times or rather learn from it? Do we really want to be back in the pre-covid days, or can we adapt and learn what we've learned during pandemics?<br><br>In Apache Airflow, we were forced to do online Airlfow Summit. That made the events bigger than we could ever imagine (10.000 attendees!) and much more accessible. We had attendees from 90+ countries in the world. Most of those people who attended would not be able to be part of an in-person event. Yeah, the in-person part was missing - but can we try to join the best of both worlds?<br><br>We will descirbe the first event of a new kind - Distributed Event. Not a &quot;Hybrid&quot; event (I hate that name) - but a truly distributed Event that took the whole week in 13 cities all over the world - from Lagos in Africa to San Francisco in US. <br><br>You will get some learnings from that experience - where 10 000 people still attended the event, but we managed to bring the local in-person experience for those who wanted badly to meet again - with far less exclusion that regular on-site event has. <br><br>Are we about to write a new Blueprint for Distributed events? Let's see.</td><td>Jarek Potiuk</td></tr></table>
 
-<h2>Cloud Runtime/Cloud Native</h2>
+<h2 id="cloud">Cloud Runtime/Cloud Native</h2>
 <p>October 5-6, Mid-City</p>
 <table style="width=100%; border:black; border-width:1px;">
 <tr><th style="width=20%">Session Title</th><th style="width=60%">Session Description</th><th style="width=20%">Presenter(s)</th></tr>
@@ -182,7 +182,7 @@
 
 <tr><td>Overview of Apache Airavata</td><td>The talk introduces Apache Airavata which enables scientists, engineers, and data scientists to securely access and manage remote data, execute remote scientific software, and execute distributed data processing pipelines.  Airavata can be used to create  Web-based interfaces to <br>Execute scientific computing workflows and automated data analysis pipelines on multiple, remote supercomputers, cluster computers, or cloud computing resources;<br>Manage data transfers and data access across local and remote resources;<br>Keep track of their activities in the user environment;<br>Clone, modify, and reuse earlier sessions with the user environment; and <br>Share sessions (such as workflow and jupyter notebook executions) with their collaborators.<br>Apache Airavata consists of the following core components:<br>Workflow Execution Services: for running software on remote computing clusters and for tracking metadata associated with executions;<br>Custos Security Services: to support federated authentication, user management, group and authorization management, permission management, and resource credential management; <br>Managed File Transfer and Data Lake Services: for managing data on distributed resources and executing automated, event-driven analysis pipelines; <br>The Airavata Django Gateway: a turnkey Web-based frontend for all Apache Airavata middleware; the Django Gateway can also be customized to provide tailored user experiences for different target users (engineers, managers, etc).</td><td>Suresh Marru</td></tr></table>
 
-<h2>CloudStack</h2>
+<h2 id="cloudstack">CloudStack</h2>
 <p>October 6, Rhythms II</p>
 <table style="width=100%; border:black; border-width:1px;">
 <tr><th style="width=20%">Session Title</th><th style="width=60%">Session Description</th><th style="width=20%">Presenter(s)</th></tr>
@@ -199,7 +199,7 @@
 
 <tr><td>Building Clouds with Apache Cloudstack</td><td>Apache CloudStack is open source software designed to deploy and manage large networks of virtual machines, as a highly available, highly scalable Infrastructure as a Service (IaaS) cloud computing platform. This talk will give an introduction to the technology, its history and its architecture. It will look at common use-cases (and some real production deployments) that are seen across both public and private cloud infrastructures and where CloudStack can be completed by other open source technologies. The talks will also compare and contrast Apache Cloudstack with other IaaS platforms and why the technology, combined with the Apache governance model will see CloudStack become the de-facto open source cloud platform. A live demo will be run, to show the software. Introduction to the ways that people can get involved in the Apache CloudStack project, will be given.</td><td>Daan Hoogland</td></tr></table>
 
-<h2>Data Engineering</h2>
+<h2 id="dataeng">Data Engineering</h2>
 <p>October 3-4, Mid-City</p>
 <table style="width=100%; border:black; border-width:1px;">
 <tr><th style="width=20%">Session Title</th><th style="width=60%">Session Description</th><th style="width=20%">Presenter(s)</th></tr>
@@ -228,7 +228,7 @@
 
 <tr><td>Git for Data Lakes - How lakeFS Scales data versioning to billions of objects</td><td>Modern data lake architectures rely on object storage as the single source of truth. We use them to store an increasing amount of data, which is increasingly complex and interconnected. While scalable, these object stores provide little safety guarantees: lacking semantics that allow atomicity, rollbacks, and reproducibility capabilities needed for data quality and resiliency.<br><br>lakeFS - an open source data version control system designed for Data Lakes solves these problems by introducing concepts borrowed from Git: branching, committing, merging and rolling back changes to data.<br><br>In this talk you'll learn about the challenges with using object storage for data lakes and how lakeFS enables you to solve them.<br>By the end of the session you’ll understand how lakeFS scales its Git-like data model to petabytes of data, across billions of objects - without affecting throughput or performance. We will also demo branching, writing data using Spark and merging it on a billion-object repository.</td><td>Oz Katz</td></tr></table>
 
-<h2>FinTech</h2>
+<h2 id="fintech">FinTech</h2>
 <p>October 3-4, Rhythms II</p>
 <table style="width=100%; border:black; border-width:1px;">
 <tr><th style="width=20%">Session Title</th><th style="width=60%">Session Description</th><th style="width=20%">Presenter(s)</th></tr>
@@ -270,7 +270,7 @@
 
 <tr><td>OpenG2P - Unifying Multiple Digital Public Goods to create an end to end platform for digitizing social protection programs</td><td>Throughout the two previous ApacheCon gatherings we’ve highlighted the growth and evolution of OpenG2P as end to end system digitize bulk cash transfers and social protection programs from beneficiary management to payment disbursement to grievance and redress mechanisms. The OpenG2P architecture continues to evolve as a showcase of how multiple Digital Public Goods can be unified under a common framework to deliver an end to end solution for a complex use case challenging governments.<br><br>This session will focus on the current and ongoing integration of two DPGs into OpenG2P - Apache Fineract and MIfos Payment Hub for payment orchestration and MOSIP for digital identity and biometric authentication and authorization. Through this exploration of the solution architecture and the ongoing reference implementations in two separate regions, we’ll highlight the complementary nature of the current Digital Public Goods being intertwined as well as explore the roadmap and potential of incorporating other DPGs like Mojaloop, X-Road, and OpenCRVS. <br><br>From this session, we will present the governance and collaboration structure for other open source contributors to get involved as well as in-depth look at the architecture, use cases, and roadmap for social protection that showcases the complementary nature of these various systems, demonstrates the boundaries of their APIs and pinpoints the logical points of integration, and directly invites other contributors to become involved.</td><td>Ed Cable and Puneet Joshi</td></tr></table>
 
-<h2>Geospatial and Remote Sensing</h2>
+<h2 id="geospatial">Geospatial and Remote Sensing</h2>
 <p>October 4, Endymion</p>
 <table style="width=100%; border:black; border-width:1px;">
 <tr><th style="width=20%">Session Title</th><th style="width=60%">Session Description</th><th style="width=20%">Presenter(s)</th></tr>
@@ -287,7 +287,7 @@
 <tr><td>Geospatial Track Capstone Discussion with Community</td>
 <td>This session will culminate the Geospatial and Remote Sensing track.  The objective will be to synthesize common elements from the earlier sessions of the track and to move toward recommendations on coordinated activities that advance Apache Projects.  The session will begin with panelists offering their own position statement and serving as discussants of the earlier sessions.  After the panelists statements, there will be a discussion open to all in the room.  It is anticipated that the synthesis and discussion will highlight specific actions that will reduce development effort through the reuse and increased quality of geospatial and remote sensing information handling within and across Apache Projects.</td><td>George Percivall</td></tr></table>
 
-<h2>Groovy</h2>
+<h2 id="groovy">Groovy</h2>
 <p>October 5-6, Bacchus</p>
 <table style="width=100%; border:black; border-width:1px;">
 <tr><th style="width=20%">Session Title</th><th style="width=60%">Session Description</th><th style="width=20%">Presenter(s)</th></tr>
@@ -315,13 +315,13 @@
 
 <tr><td>Key Gradle Concepts And Practices</td><td>Gradle has been described as the open source project with the most documentation that doesn't help. Key concepts, like the different steps Gradle takes at initialization time, configuration time, and execution time are not obvious, but must be understood to use Gradle effectively. This talk will cover those topics, as well as how to use source sets, IDE integration, testing in parallel, the build cache, and multi-project builds.<br><br>Other topics to be included based on the interests of attendees will include writing your own custom tasks, using and building plugins, archiving and expanding files and folders, and incremental builds for efficiency.<br><br>Recently revised to include dependency conflict resolution, lazy task creation, and more.</td><td>Ken Kousen</td></tr></table>
 
-<h2>Highlights</h2>
+<h2 id="highlights">Highlights</h2>
 <p>October 3-4, Iris</p>
 <table style="width=100%; border:black; border-width:1px;">
 <tr><th style="width=20%">Session Title</th><th style="width=60%">Session Description</th><th style="width=20%">Presenter(s)</th></tr>
 <tr><td>Keep Identities in Sync the SCIMple Way</td><td>What if keeping your user stores in sync across domains was as simple as running &quot;java -jar&quot;? With Apache SCIMPle, it is! SCIMple is a SCIM 2.0-compliant server powered by Spring Boot. You can run it standalone or embedded in your existing app. It exposes user management REST endpoints and handles the hassle of user synchronization for you. If your identity provider supports SCIM, use the simple way!</td><td>Matt Raible and Brian Demers</td></tr></table>
 
-<h2>Incubator</h2>
+<h2 id="incubator">Incubator</h2>
 <p>October 5, Endymion</p>
 <table style="width=100%; border:black; border-width:1px;">
 <tr><th style="width=20%">Session Title</th><th style="width=60%">Session Description</th><th style="width=20%">Presenter(s)</th></tr>
@@ -339,7 +339,7 @@
 
 <tr><td>Coding Presentations with Apache Training (Incubating)</td><td>I'll never forget how I worked on my first presentation for the Apache Con NA in Denver in 2014. <br><br>At that time I was layouting my slides one by one using PowerPoint for days to almost over a week. <br><br>This works fine if you do one or two talks a year, however it doesn't scale, especially if you like to create individual talks or variants for every talk you give.<br><br>After a lot of trying out things I stuck with a setup consisting of: <br>- Git<br>- Apache Maven<br>- Asciidoctor<br>- Reveal.JS<br><br>With this setup I can code my presentations in my IDE of choice, have them compiled to nicely looking presentations via maven and run them in any browser. With this setup I managed to reduce the amount of time for preparing presentations from days to a few hours, for a customization, even a few minutes.<br><br>This setup has recently become the core of the Apache Training incubating project. <br><br>I want to show you how I write presentations with this and demonstrate most of the amazing features it brings.<br><br>Also do I want to encourage others to participate in the Apache Training project, as I do think it has a lot of value to add.</td><td>Christofer Dutz</td></tr></table>
 
-<h2>Internet of Things</h2>
+<h2 id="iot">Internet of Things</h2>
 <p>October 3, Endymion</p>
 <table style="width=100%; border:black; border-width:1px;">
 <tr><th style="width=20%">Session Title</th><th style="width=60%">Session Description</th><th style="width=20%">Presenter(s)</th></tr>
@@ -355,7 +355,7 @@
 
 <tr><td>IIoT analytics made easy with Apache StreamPipes</td><td>Many IoT-driven use cases in areas such as manufacturing require the continuous collection, integration and analysis of sensor data to detect time-critical situations. Many available tools require a high level of IT expertise to do this, and thus tend to be targeted at less IT-savvy users. In this talk, we will present Apache StreamPipes (incubating), a self-service solution for IoT data analytics that allows users to connect heterogeneous IoT data sources with just a few clicks and then link analytics building blocks based on reusable algorithms, like the Lego principle. The presentation covers technical basics, applications and demo and presents latest community work.</td><td>Dominik Riemer and Philipp Zehnder</td></tr></table>
 
-<h2>Libraries, Frameworks and Developer Tools</h2>
+<h2 id="libdevtools">Libraries, Frameworks and Developer Tools</h2>
 <p>October 3-4, Bacchus</p>
 <table style="width=100%; border:black; border-width:1px;">
 <tr><th style="width=20%">Session Title</th><th style="width=60%">Session Description</th><th style="width=20%">Presenter(s)</th></tr>
@@ -385,7 +385,7 @@
 
 <tr><td>Introduction to the Grails® framework</td><td>The Grails® framework is a powerful web application framework for JVM which has been out there for a decade and provides a smoother development experience than any other framework. It allows developers to quickly on-board the project and easily find the pieces of code and focus more on the business aspects of the application. <br><br>In this talk I will showcase some of the powerful features of Grails framework to provide extreme developer productivity.</td><td>Puneet Behl</td></tr></table>
 
-<h2>Performance Engineering</h2>
+<h2 id="perfeng">Performance Engineering</h2>
 <p>October 6, Endymion</p>
 <table style="width=100%; border:black; border-width:1px;">
 <tr><th style="width=20%">Session Title</th><th style="width=60%">Session Description</th><th style="width=20%">Presenter(s)</th></tr>
@@ -401,7 +401,7 @@
 
 <tr><td>Software and hardware opportunities for better compression performance</td><td>Compression is ubiquitous in data center software. In addition to storage savings, compression can also improve performance by reducing disk and network traffic. Decades since its inception, compression is still an active research field, and algorithms keep evolving to enhance speed and compression ratio (ZSTD is an excellent example). Companies are also developing hardware accelerators that can offer benefits over software compression. Some applications feature an extensible architecture to easily integrate new compression techniques, but others need development to enable such flexibility.<br> <br>In this talk, we will discuss why such an old problem is still so relevant everywhere today, what software can do to prepare for future innovations in compression, and, finally, how custom hardware can further speed up compression and improve the performance of applications. We will cover examples of compressors we developed for Apache Cassandra and Lucene, a compression plugin framework we contributed to RocksDB, and the performance improvements observed.</td><td>Luca Giacchino</td></tr></table>
 
-<h2>Pulsar Event Streaming</h2>
+<h2 id="pulsar">Pulsar Event Streaming</h2>
 <p>October 5-6, Iris</p>
 <table style="width=100%; border:black; border-width:1px;">
 <tr><th style="width=20%">Session Title</th><th style="width=60%">Session Description</th><th style="width=20%">Presenter(s)</th></tr>
@@ -429,7 +429,7 @@
 
 <tr><td>Performance tuning for Apache Pulsar Kubernetes deployments in the cloud</td><td>Apache Pulsar can be deployed on cloud provider managed Kubernetes services with ease. However, one will quickly realize that the out-of-the-box performance is not optimal for high-volume use cases. In this talk, common bottlenecks are demonstrated using an Apache Pulsar and Apache BookKeeper deployment in GCP. It will be shown how monitoring can be used to detect the issues. Furthermore, the bottlenecks are resolved by tuning the system by changing configuration parameters. If you are interested in learning more about Apache Pulsar operations and performance tuning, this talk is for you.</td><td>Lari Hotari</td></tr></table>
 
-<h2>Search (Lucene/Solr)</h2>
+<h2 id="search">Search (Lucene/Solr)</h2>
 <p>October 6, Rex</p>
 <table style="width=100%; border:black; border-width:1px;">
 <tr><th style="width=20%">Session Title</th><th style="width=60%">Session Description</th><th style="width=20%">Presenter(s)</th></tr>
@@ -445,7 +445,7 @@
 
 <tr><td>Give your Solr Queries some Love with Quepid</td><td>You are fighting to make your search engine return the right results for your queries.  You are drowning in synonyms, analysis chains, and the Lucene explain syntax.   You need to give your queries some love, you need Quepid!   Quepid is an ASL 2.0 licensed open source web applications that makes relevancy tuning a test driven process.  You can capture &quot;what is good search&quot; from your business users, and then have a safe space to experiment with Solr (and Elastic/OpenSearch).   Quepid is the indepensible tool for quickly improving the quality of your search using classic Information Retrieval metrics like NDCG.   Come to this class to learn hands on how to use Quepid.</td><td>Eric Pugh</td></tr></table>
 
-<h2>Tomcat</h2>
+<h2 id="tomcat">Tomcat</h2>
 <p>October 5, Rhythms II</p>
 <table style="width=100%; border:black; border-width:1px;">
 <tr><th style="width=20%">Session Title</th><th style="width=60%">Session Description</th><th style="width=20%">Presenter(s)</th></tr>
